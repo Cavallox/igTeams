@@ -1,10 +1,12 @@
-import { Container, Title } from './styles';
+import React from 'react';
+//import { Container, Title } from './styles';
+import * as S from './styles';
 
 export function Groups() {
   return (
-    <Container>
-      <Title>Hello World!</Title>
-    </Container>
+    <S.Container>
+      <S.Title>Hello World!</S.Title>
+    </S.Container>
 
     
   );
